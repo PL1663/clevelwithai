@@ -182,16 +182,6 @@ p  { margin: 0 0 1rem; max-width: 62ch; }
 }
 .hero-figure svg { z-index: 2; }
 
-/* photo placeholder (reserved for personal portrait) */
-.photo-ph {
-  position: absolute; right: -14px; bottom: -14px; z-index: 3;
-  width: 46%; aspect-ratio: 3/4; border-radius: 5px;
-  background: repeating-linear-gradient(135deg, #efeadd, #efeadd 9px, #e9e3d4 9px, #e9e3d4 18px);
-  border: 1px solid var(--line);
-  display: flex; align-items: center; justify-content: center;
-  text-align: center; color: var(--charcoal-60); font-size: .72rem; letter-spacing: .04em;
-  box-shadow: 0 18px 40px -22px rgba(37,56,47,.4);
-}
 
 /* ---------------- media band (themed duotone photo) ---------------- */
 .media-band {
